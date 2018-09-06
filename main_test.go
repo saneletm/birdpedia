@@ -35,7 +35,7 @@ func TestHandler(t *testing.T) {
 	}
 
 	// check the response body is what we expect
-	expected := `Hello Wiorld!`
+	expected := `Hello World!`
 	actual := recorder.Body.String()
 
 	if actual != expected {
